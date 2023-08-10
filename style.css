@@ -186,6 +186,11 @@ td {
     left: 7px;
 }
 
+.btnKakao {
+    width: 90%;
+    left: 10px;
+}
+
 .btnText {
     width: 80%;
     left: 5px;
@@ -259,6 +264,6 @@ td {
     max-width: 100px;
 }
 .active-thumbnail {
-    border: 2px solid #007bff;
+    border: 2px solid #747678;
 }
 

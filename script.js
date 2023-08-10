@@ -58,7 +58,7 @@ function addPhotos() {
     const photoSuffix = '.jpeg';
     let photoName = '';
 
-    for (let i=1; i<=4; i++ ) {
+    for (let i=1; i<=16; i++ ) {
         const baseDiv = document.createElement("div");
         baseDiv.className = i == 1 ? "carousel-item active" : "carousel-item";
 
@@ -85,7 +85,7 @@ function addPhotos() {
 function payLink(receiver) {
     let payLinkList = {
         'kw': 'https://qr.kakaopay.com/FR2AwP21t',
-        'hy': 'https://qr.kakaopay.com/FR2AwP21t'
+        'hy': 'https://qr.kakaopay.com/FOLfEccEb'
     };
 
     location.href = payLinkList[receiver];
@@ -93,10 +93,10 @@ function payLink(receiver) {
 
 function copyAccount(receiver) {
     let accountList = {
-        'kw': '123123123123',
+        'kw': '3333105073990',
         'hy': '123123123',
-        'dg': '23123123',
-        'sa': '123123213'
+        'hs': '97629881002003',
+        'hg': '137122022021'
     };
 
     var tempElem = document.createElement('textarea');
