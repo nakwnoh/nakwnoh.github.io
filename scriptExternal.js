@@ -148,6 +148,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "samwb":
                 coupleTitle.innerText = "진경 언니";
                 break;
+            case "rqurv":
+                coupleTitle.innerText = "누나야";
+
             default:
                 coupleTitle.innerText = to;
         }
@@ -160,5 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         coupleTitle.innerText += "\n나 장가간다!!";
     }else if(type === 'ms'){
         coupleTitle.innerText += "\n저 장가갑니다!!";
+    }else if(type === 'mmmm'){
+        coupleTitle.innerText += "\n막내동생 장가간다!!";
     }
 });
