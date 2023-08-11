@@ -94,7 +94,7 @@ function payLink(receiver) {
 function copyAccount(receiver) {
     let accountList = {
         'kw': '3333105073990',
-        'hy': '123123123',
+        'hy': '1002739016609',
         'hs': '97629881002003',
         'hg': '137122022021'
     };
