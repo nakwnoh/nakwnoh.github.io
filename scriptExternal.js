@@ -11,43 +11,43 @@ document.addEventListener('DOMContentLoaded', function() {
     } else {
         switch (to) {
             case "qyely":
-                coupleTitle.innerText = "박동훈 이사님,";
+                coupleTitle.innerText = "박동훈 이사님";
                 break;
             case "dpeac":
-                coupleTitle.innerText = "노정재 팀장님,";
+                coupleTitle.innerText = "노정재 팀장님";
                 break;
             case "ywvkn":
-                coupleTitle.innerText = "태성이형,";
+                coupleTitle.innerText = "태성이형";
                 break;
             case "aqwgt":
-                coupleTitle.innerText = "미카사,";
+                coupleTitle.innerText = "미카사";
                 break;
             case "fqumb":
-                coupleTitle.innerText = "용재야,";
+                coupleTitle.innerText = "용재야";
                 break;
             case "qpmck":
-                coupleTitle.innerText = "현석이형,";
+                coupleTitle.innerText = "현석이형";
                 break;
             case "ancvh":
-                coupleTitle.innerText = "승준이형,";
+                coupleTitle.innerText = "승준이형";
                 break;
             case "skxqa":
-                coupleTitle.innerText = "가민이형,";
+                coupleTitle.innerText = "가민이형";
                 break;
             case "whvkc":
-                coupleTitle.innerText = "용만아,";
+                coupleTitle.innerText = "용만아";
                 break;
             case "inpda":
-                coupleTitle.innerText = "주성아,";
+                coupleTitle.innerText = "주성아";
                 break;
             case "lqwri":
-                coupleTitle.innerText = "성원아,";
+                coupleTitle.innerText = "성원아";
                 break;
             case "mqjeu":
-                coupleTitle.innerText = "정근아,";
+                coupleTitle.innerText = "정근아";
                 break;
             case "fswer":
-                coupleTitle.innerText = "선모야,";
+                coupleTitle.innerText = "선모야";
                 break;
             case "xfpok":
                 coupleTitle.innerText = "가예야";

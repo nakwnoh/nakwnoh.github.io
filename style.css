@@ -266,4 +266,7 @@ td {
 .active-thumbnail {
     border: 2px solid #747678;
 }
+.no-wrap {
+    white-space: nowrap;
+}
 
