@@ -150,6 +150,58 @@ document.addEventListener('DOMContentLoaded', function() {
                 break;
             case "rqurv":
                 coupleTitle.innerText = "누나야";
+                break;
+            case "haqhs":
+                coupleTitle.innerText = "창률아";
+                break;
+            case "dmtja":
+                coupleTitle.innerText = "용현아";
+                break;
+            case "fsdbs":
+                coupleTitle.innerText = "일진형님!";
+                break;
+            case "omdhj":
+                coupleTitle.innerText = "종훈이형";
+                break;
+            case "laayf":
+                coupleTitle.innerText = "신형형님";
+                break;
+            case "ipuyn":
+                coupleTitle.innerText = "정호형님";
+                break;
+            case "ppvjp":
+                coupleTitle.innerText = "경민형님";
+                break;
+            case "llypw":
+                coupleTitle.innerText = "성일형님";
+                break;
+            case "peagg":
+                coupleTitle.innerText = "행복이형";
+                break;
+            case "kwvhv":
+                coupleTitle.innerText = "보람누나";
+                break;
+            case "oiehn":
+                coupleTitle.innerText = "수진이누나";
+                break;
+            case "ntfcj":
+                coupleTitle.innerText = "륜아";
+                break;
+            case "ipfln":
+                coupleTitle.innerText = "동현아";
+                break;
+            case "brayk":
+                coupleTitle.innerText = "성곤아";
+                break;
+            case "cudpw":
+                coupleTitle.innerText = "명선아";
+                break;
+            case "bktef":
+                coupleTitle.innerText = "수진아";
+                break;
+            case "hcmur":
+                coupleTitle.innerText = "유경아";
+                break;
 
             default:
                 coupleTitle.innerText = to;
