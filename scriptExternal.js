@@ -52,6 +52,102 @@ document.addEventListener('DOMContentLoaded', function() {
             case "xfpok":
                 coupleTitle.innerText = "가예야";
                 break;
+            case "xpywe":
+                coupleTitle.innerText = "초롱아";
+                break;
+            case "vfqkn":
+                coupleTitle.innerText = "종미야";
+                break;
+            case "ooych":
+                coupleTitle.innerText = "경민아";
+                break;
+            case "mogwh":
+                coupleTitle.innerText = "지석아";
+                break;
+            case "knkvf":
+                coupleTitle.innerText = "연구야";
+                break;
+            case "bpnmf":
+                coupleTitle.innerText = "대영아";
+                break;
+            case "epbsn":
+                coupleTitle.innerText = "수환아";
+                break;
+            case "bcfwc":
+                coupleTitle.innerText = "한웅아";
+                break;
+            case "kekyc":
+                coupleTitle.innerText = "국인아";
+                break;
+            case "imlgg":
+                coupleTitle.innerText = "종언아";
+                break;
+            case "mcjym":
+                coupleTitle.innerText = "경용아";
+                break;
+            case "snvbg":
+                coupleTitle.innerText = "호나야";
+                break;
+            case "pwcsj":
+                coupleTitle.innerText = "수인아";
+                break;
+            case "pyhlr":
+                coupleTitle.innerText = "다미야";
+                break;
+            case "ojiyr":
+                coupleTitle.innerText = "민지야";
+                break;
+            case "sgceh":
+                coupleTitle.innerText = "지혜야";
+                break;
+            case "efrhg":
+                coupleTitle.innerText = "아람아";
+                break;
+            case "mydtv":
+                coupleTitle.innerText = "희나야";
+                break;
+            case "xkdam":
+                coupleTitle.innerText = "따우나";
+                break;
+            case "eyavs":
+                coupleTitle.innerText = "여니야";
+                break;
+            case "nfidw":
+                coupleTitle.innerText = "은지야";
+                break;
+            case "ydoif":
+                coupleTitle.innerText = "지영아";
+                break;
+            case "mktsu":
+                coupleTitle.innerText = "영금아";
+                break;
+            case "vdynb":
+                coupleTitle.innerText = "의정";
+                break;
+            case "wriwm":
+                coupleTitle.innerText = "소연";
+                break;
+            case "rsxdv":
+                coupleTitle.innerText = "삼동이 누나";
+                break;
+            case "ndswh":
+                coupleTitle.innerText = "유미 온니";
+                break;
+            case "jmumr":
+                coupleTitle.innerText = "가화 온니";
+                break;
+            case "lgvbf":
+                coupleTitle.innerText = "새롬 언니";
+                break;
+            case "oinxc":
+                coupleTitle.innerText = "선영 언니";
+                break;
+            case "uxpvj":
+                coupleTitle.innerText = "민디 언니";
+                break;
+            case "samwb":
+                coupleTitle.innerText = "진경 언니";
+                break;
             default:
                 coupleTitle.innerText = to;
         }
