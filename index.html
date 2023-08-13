@@ -216,6 +216,12 @@
                 firstThumbnail.classList.add('active-thumbnail');
             }
         });
+
+        document.addEventListener('contextmenu', function(e) {
+            if (e.target.closest('.carousel-inner')) {
+                e.preventDefault();
+            }
+        });
     </script>
 
 
