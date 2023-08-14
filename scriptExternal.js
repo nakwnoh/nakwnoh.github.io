@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 coupleTitle.innerText = "유경아";
                 break;
             case "kwlik":
-                coupleTitle.innerText = "유경아";
+                coupleTitle.innerText = "주연이 이모";
                 break;
 
             default:
