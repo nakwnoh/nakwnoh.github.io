@@ -202,6 +202,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "hcmur":
                 coupleTitle.innerText = "유경아";
                 break;
+            case "kwlik":
+                coupleTitle.innerText = "유경아";
+                break;
 
             default:
                 coupleTitle.innerText = to;
