@@ -276,8 +276,8 @@ td {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    pointer-events: none;
 }
+
 .active-thumbnail {
     border: 2px solid #747678;
 }
