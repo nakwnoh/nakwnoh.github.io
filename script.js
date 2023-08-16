@@ -120,9 +120,15 @@ function getDDay() {
 
     const distance = setDate.getTime() - now.getTime();
 
-    const day = Math.floor(distance/(1000*60*60*24));
+    const day = Math.ceil(distance/(1000*60*60*24));
 
     const dDayElem = document.getElementById("dday");
-    dDayElem.innerHTML = day + 1 + '일';
 
+    if(day === 0) {
+        dDayElem.parentElement.innerHTML = '경운 <span class="highlight">♥</span> 화영의 결혼식이 <span class="highlight fw-bold">오늘</span> 입니다.';
+    } else if (day <= -1) {
+        dDayElem.innerHTML = 0 + '일';
+    } else {
+        dDayElem.innerHTML = day + '일';
+    }
 }
