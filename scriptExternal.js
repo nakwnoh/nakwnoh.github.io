@@ -205,6 +205,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "kwlik":
                 coupleTitle.innerText = "주연 이모";
                 break;
+            case "avfal":
+                coupleTitle.innerText = "경욱 대리";
+                break;
 
             default:
                 coupleTitle.innerText = to;
