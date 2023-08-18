@@ -233,6 +233,8 @@ document.addEventListener('DOMContentLoaded', function() {
         coupleTitle.innerText += "\n나 장가간다!!";
     }else if(type === 'ms'){
         coupleTitle.innerText += "\n저 장가갑니다!!";
+    }else if(type === 'mb'){
+        coupleTitle.innerText += "\n형 장가간다!!";
     }else if(type === 'mmmm'){
         coupleTitle.innerText += "\n막내동생 장가간다!!";
     }
