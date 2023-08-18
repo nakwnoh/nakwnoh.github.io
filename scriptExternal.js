@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 coupleTitle.innerText = "현석이형";
                 break;
             case "ancvh":
-                coupleTitle.innerText = "승준이형";
+                coupleTitle.innerText = "북진! 승준이형";
                 break;
             case "skxqa":
                 coupleTitle.innerText = "가민이형";
