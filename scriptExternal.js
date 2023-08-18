@@ -208,6 +208,18 @@ document.addEventListener('DOMContentLoaded', function() {
             case "avfal":
                 coupleTitle.innerText = "경욱 대리";
                 break;
+            case "trkap":
+                coupleTitle.innerText = "경하 언니";
+                break;
+            case "vibyh":
+                coupleTitle.innerText = "희숙 언니";
+                break;
+            case "ixlmu":
+                coupleTitle.innerText = "송이 언니";
+                break;
+            case "gmlgo":
+                coupleTitle.innerText = "세정아";
+                break;
 
             default:
                 coupleTitle.innerText = to;
