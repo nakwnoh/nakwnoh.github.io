@@ -1,11 +1,32 @@
-
-document.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function () {
     // makeMap();
     addPhotos();
     getDDay();
     accordion();
 
     // Kakao.init('5b530fd96142df42568888e8aba54815'); // 사용하려는 앱의 JavaScript 키 입력
+
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    });
+    document.addEventListener('dragstart', function (e) {
+        e.preventDefault();
+    });
+    document.addEventListener('keydown', function (e) {
+        if (e.keyCode === 123) {
+            e.preventDefault();
+        }
+        if (e.ctrlKey && e.keyCode === 85) {
+            e.preventDefault();
+        }
+        if (e.ctrlKey && e.keyCode === 67) {
+            e.preventDefault();
+        }
+        if (e.ctrlKey && e.keyCode === 86) {
+            e.preventDefault();
+        }
+
+    });
 });
 
 /*카카오 맵 불러오기*/
@@ -21,13 +42,13 @@ function makeMap() {
     map.setZoomable(false);
 
     var geocoderCenter = new kakao.maps.services.Geocoder();
-    geocoderCenter.addressSearch('주소', function(result, status) {
-         if (status === kakao.maps.services.Status.OK) {
+    geocoderCenter.addressSearch('주소', function (result, status) {
+        if (status === kakao.maps.services.Status.OK) {
             var centerCords = new kakao.maps.LatLng(result[0].y, result[0].x);
 
             var geocoder = new kakao.maps.services.Geocoder();
-            geocoder.addressSearch('주소', function(result, status) {
-                 if (status === kakao.maps.services.Status.OK) {
+            geocoder.addressSearch('주소', function (result, status) {
+                if (status === kakao.maps.services.Status.OK) {
                     var cords = new kakao.maps.LatLng(result[0].y, result[0].x);
 
                     var marker = new kakao.maps.Marker({
@@ -59,7 +80,7 @@ function addPhotos() {
     const photoSuffix = '.jpeg';
     let photoName = '';
 
-    for (let i=1; i<=16; i++ ) {
+    for (let i = 1; i <= 16; i++) {
         const baseDiv = document.createElement("div");
         baseDiv.className = i == 1 ? "carousel-item active" : "carousel-item";
 
@@ -121,11 +142,11 @@ function getDDay() {
 
     const distance = setDate.getTime() - now.getTime();
 
-    const day = Math.ceil(distance/(1000*60*60*24));
+    const day = Math.ceil(distance / (1000 * 60 * 60 * 24));
 
     const dDayElem = document.getElementById("dday");
 
-    if(day === 0) {
+    if (day === 0) {
         dDayElem.parentElement.innerHTML = '경운 <span class="highlight">♥</span> 화영의 결혼식이 <span class="highlight fw-bold">오늘</span> 입니다.';
     } else if (day <= -1) {
         dDayElem.innerHTML = 0 + '일';
@@ -135,8 +156,8 @@ function getDDay() {
 }
 
 function accordion() {
-    document.querySelectorAll('.accordion').forEach(function(accordion) {
-        accordion.addEventListener('show.bs.collapse', function(e) {
+    document.querySelectorAll('.accordion').forEach(function (accordion) {
+        accordion.addEventListener('show.bs.collapse', function (e) {
             const accordionItem = e.target.closest('.accordion-item');
 
             // 뷰포트 높이의 절반 구하기
