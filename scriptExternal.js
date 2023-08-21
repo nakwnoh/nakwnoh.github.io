@@ -220,6 +220,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "gmlgo":
                 coupleTitle.innerText = "세정아";
                 break;
+            case "qpvel":
+                coupleTitle.innerText = "지연아";
+                break;
 
             default:
                 coupleTitle.innerText = to;
