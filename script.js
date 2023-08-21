@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     // makeMap();
     addPhotos();
     getDDay();
+    accordion();
 
     // Kakao.init('5b530fd96142df42568888e8aba54815'); // 사용하려는 앱의 JavaScript 키 입력
 });
@@ -131,4 +132,26 @@ function getDDay() {
     } else {
         dDayElem.innerHTML = day + '일';
     }
+}
+
+function accordion() {
+    document.querySelectorAll('.accordion').forEach(function(accordion) {
+        accordion.addEventListener('show.bs.collapse', function(e) {
+            const accordionItem = e.target.closest('.accordion-item');
+
+            // 뷰포트 높이의 절반 구하기
+            const halfViewportHeight = window.innerHeight / 2;
+
+            // 아코디언 항목의 높이의 절반 구하기 (이 시점에서 아코디언 항목이 완전히 열리지 않았을 수 있으므로 근사치)
+            const halfAccordionHeight = accordionItem.clientHeight / 2;
+
+            // 화면 중앙으로 조정된 스크롤 위치 계산
+            const scrollPosition = accordionItem.offsetTop - halfViewportHeight + halfAccordionHeight;
+
+            window.scroll({
+                top: scrollPosition,
+                behavior: 'smooth'
+            });
+        });
+    });
 }
