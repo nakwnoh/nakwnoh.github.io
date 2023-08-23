@@ -223,6 +223,18 @@ document.addEventListener('DOMContentLoaded', function() {
             case "qpvel":
                 coupleTitle.innerText = "지연아";
                 break;
+            case "ogcbg":
+                coupleTitle.innerText = "은영 언니";
+                break;
+            case "hfcmn":
+                coupleTitle.innerText = "정아 언니";
+                break;
+            case "dhrjm":
+                coupleTitle.innerText = "찌";
+                break;
+            case "dtklm":
+                coupleTitle.innerText = "연준 팀장님";
+                break;
 
             default:
                 coupleTitle.innerText = to;
