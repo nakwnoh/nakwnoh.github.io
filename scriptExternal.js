@@ -235,6 +235,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "dtklm":
                 coupleTitle.innerText = "연준 팀장님";
                 break;
+            case "fxnce":
+                coupleTitle.innerText = "지해야";
+                break;
 
             default:
                 coupleTitle.innerText = to;
