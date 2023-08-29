@@ -238,6 +238,8 @@ document.addEventListener('DOMContentLoaded', function() {
             case "fxnce":
                 coupleTitle.innerText = "지해야";
                 break;
+            case"garur":
+                coupleTitle.innerText = "플래너님";
 
             default:
                 coupleTitle.innerText = to;
@@ -255,5 +257,7 @@ document.addEventListener('DOMContentLoaded', function() {
         coupleTitle.innerText += "\n형 장가간다!!";
     }else if(type === 'mmmm'){
         coupleTitle.innerText += "\n막내동생 장가간다!!";
+    }else if(type === 'fff'){
+        coupleTitle.innerText += "\n저희 결혼합니다!!";
     }
 });
