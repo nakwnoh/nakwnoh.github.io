@@ -238,7 +238,7 @@ document.addEventListener('DOMContentLoaded', function() {
             case "fxnce":
                 coupleTitle.innerText = "지해야";
                 break;
-            case "garur":
+            case "uubrf":
                 coupleTitle.innerText = "플래너님";
                 break;
             default:
