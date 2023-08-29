@@ -241,6 +241,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "uubrf":
                 coupleTitle.innerText = "플래너님";
                 break;
+            case "isisa":
+                coupleTitle.innerText = "123";
+                break;
             default:
                 coupleTitle.innerText = to;
         }
