@@ -244,6 +244,9 @@ document.addEventListener('DOMContentLoaded', function() {
             case "isisa":
                 coupleTitle.innerText = "123";
                 break;
+            case "wapyy":
+                coupleTitle.innerText = "민수 새갸";
+                break;
             default:
                 coupleTitle.innerText = to;
         }
